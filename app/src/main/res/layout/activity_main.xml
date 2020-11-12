@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.example.colorstuff.NewClass
+
+    <com.example.color2.NewClass
         android:id="@+id/newClass"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></com.example.colorstuff.NewClass>
-
-<!--    tried text view but its not working rip-->
+        android:layout_height="match_parent"
+        tools:ignore="MissingClass"></com.example.color2.NewClass>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.colorstuff;
+package com.example.color2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
