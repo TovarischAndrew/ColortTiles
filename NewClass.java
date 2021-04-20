@@ -37,7 +37,7 @@ class Tile {
         color = c;
     }
 }
-
+// переименовать класс
 public class NewClass extends View {
     int outline = 5;
     Tile[][] tiles = new Tile[4][4];
@@ -83,7 +83,7 @@ public class NewClass extends View {
 
                 Rect tile = new Rect();
                 tile.set(left + outline, top + outline, right - outline, bottom - outline);
-
+// Генерацию случайных цветов для тайлов можно вынести в новую функцию
                 int color;
                 if (generating) {
                     if (Math.random() > 0.5) { // math random is between 0 and 1.0 by default
